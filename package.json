@@ -1,0 +1,16 @@
+{
+  "name": "repro-jest-dual-mode-cjs-esm",
+  "version": "1.0.0",
+  "description": "Reproduction of an issue that causes Jest to fail importing some dual mode packages properly",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "case-anything": "^2.1.13",
+    "jest": "^29.7.0"
+  }
+}
